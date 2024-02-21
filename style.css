@@ -1,0 +1,604 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset end */
+
+/* style */
+
+.container {
+    width: 1213px;
+    margin: auto;
+}
+
+/* home */
+.home {
+    background-image: url(image/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1213px;
+    height: 100vh;
+    position: relative;
+}
+
+.home .cover {
+    background-color: rgba(0, 0, 0, 0.652);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+}
+
+.home .navigasi {
+    background-color: rgb(255, 251, 251);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 999999;
+}
+
+.home .navigasi .logo {
+    width: 240px;
+    height: 60px;
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    margin-left: 10px;
+    
+}
+
+.home .navigasi .top-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home .navigasi .top-bar ul {
+    width: 830px;
+    padding: 10px;
+    text-align: right;
+}
+
+
+.home .navigasi .top-bar ul li {
+    display: inline-block;
+    margin: 7px 1px 20px 1px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.home .navigasi .top-bar ul li .hub {
+    background-color:  rgb(84, 198, 84);
+    padding: 15px;
+    border-radius: 3px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.home .navigasi .top-bar ul .nav:hover {
+    color: #d1cece;
+    background-color: #eae3e3;
+    border-radius: 3px;
+}
+
+
+.home .navigasi .top-bar ul li .hub:hover {
+    background-color:  rgb(65, 151, 65);
+    color: #fff;
+}
+
+.home .navigasi .top-bar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/* page 1 */
+
+.page1 {
+    width: 1213px;
+    height: 100vh;
+    margin-top: 30px;
+    position: relative;
+}
+
+.page1 .foto1-1 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 24%;
+    
+}
+
+.page1 .foto1-2 {
+    position: absolute;
+    top: 25px;
+    left: 355px;
+    width: 24%;
+}
+.page1 .heading {
+    position: absolute;
+    top: 25px;
+    right: 75px;
+    width: 38%;
+}
+
+.page1 .heading img {
+    width: 450px;
+
+}
+
+.page1 .heading p {
+    font: 17px/35px arial;
+    color: #666;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+/* page 2 */
+.page2 {
+    width: 1213px;
+    background-color: #fdf9f9;
+    padding-top: 80px;
+}
+
+.page2 .heading {
+    background-image: url(image/heading2.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+.page2 .content1, .content2, .content3 {
+    width: 350px;
+    height: 260px;
+    float: left;
+    margin: 0px 30px 30px 10px;
+    box-sizing: border-box;
+}
+
+.page2 .content1 {
+    margin-left: 43px;
+    position: relative;
+    padding: 30px;
+}
+
+.page2 .content1 img {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.page2 .content1 h3 {
+    display: inline-block;
+    margin: 80px 0px 20px 70px;
+    color: rgb(25, 219, 25);
+    font-size: 25px;
+}
+
+.page2 .content1 p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page2 .content2 {
+    position: relative;
+    padding: 30px;
+}
+
+.page2 .content2 img {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.page2 .content2 h3 {
+    display: inline-block;
+    margin: 80px 0px 20px 95px;
+    color: rgb(25, 219, 25);
+    font-size: 25px;
+}
+
+.page2 .content2 p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page2 .content3 {
+    position: relative;
+    padding: 30px;
+}
+
+.page2 .content3 img {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.page2 .content3 h3 {
+    display: inline-block;
+    margin: 80px 0px 20px 85px;
+    color: rgb(25, 219, 25);
+    font-size: 25px;
+}
+
+.page2 .content3 p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* page 3 */
+.page3 {
+    width: 1213px;
+    margin-bottom: 50px;
+}
+
+.page3 .heading {
+    background-image: url(image/heading3.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 150px;
+    margin: 60px auto 70px;
+}
+
+.page3 .container {
+    margin: auto;
+    width: 1092px;
+    border: 1px solid #777;
+}
+
+.page3 .container .menu, .content {
+    width: 273px;
+    height: 180px;
+    float: left;
+}
+
+.page3 .container .menu h3 {
+    font: 20px/30px arial;
+    font-weight: bold;
+    display: inline-block;
+    margin: 25px 0px 0px 20px;
+}
+
+.page3 .container .menu a {
+    background-color: rgb(129, 171, 45);
+    padding: 13px;
+    color: #fff;
+    text-decoration: none;
+    font: 17px/10px arial;
+    display: inline-block;
+    margin: 30px 0px 0px 20px;
+    border-radius: 5px;
+}
+
+.page3 .container .menu:nth-child(2) a {
+    margin-top: 20px;
+}
+
+.page3 .container .menu a:hover {
+    background-color: rgb(105, 139, 37);
+}
+
+.page3 .container .content:nth-child(1) {
+    background-image: url(image/foto3.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(3) {
+    background-image: url(image/foto3.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(6) {
+    background-image: url(image/foto3.3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(8) {
+    background-image: url(image/foto3.4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(9) {
+    background-image: url(image/foto3.5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(11) {
+    background-image: url(image/foto3.6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(14) {
+    background-image: url(image/foto3.7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3 .container .content:nth-child(16) {
+    background-image: url(image/foto3.8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* page 4 */
+.page4 {
+    width: 1213px;
+    margin-bottom: 50px;
+}
+
+.page4 .heading {
+    background-image: url(image/heading4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+}
+
+.page4 .kota1, .kota2, .kota3, .kota4 {
+    width: 250px;
+    height: 390px;
+    margin: 90px 0px 20px 55px;
+    float: left;
+}
+
+.page4 .kota2 {
+    margin-left: 33px;
+}
+.page4 .kota3 {
+    margin-left: 33px;
+}
+.page4 .kota4 {
+    margin-left: 33px;
+}
+
+.page4 .kota1 .gambar {
+    background-image: url(image/foto4.1.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.page4 .kota2 .gambar {
+    background-image: url(image/foto4.2.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.page4 .kota3 .gambar {
+    background-image: url(image/foto4.3.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.page4 .kota4 .gambar {
+    background-image: url(image/foto4.4.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+.page4 .kota1 h3, .kota2 h3, .kota3 h3, .kota4 h3 {
+    font: 17px/10px arial;
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    width: 1213px;
+    height: 470px;
+    position: relative;
+}
+
+.footer .kiri {
+    width: 340px;
+    height: 280px;
+    margin: 50px 25px 50px 50px;
+    float: left;
+}
+
+.footer .kiri h2, .tengah h2, .kanan h2 {
+    color: #fff;
+    font: 20px/30px arial;
+    font-weight: bold;
+}
+
+.footer .kiri p, .kanan p {
+    color: #d1c9c9;
+    font-size: 17px;
+    line-height: 25px;
+    display: inline-block;
+    margin: 35px 0px;
+}
+
+.footer .kiri .fb img {
+    width: 40px;
+}
+
+.footer .kiri .ig img {
+    width: 36px;
+}
+
+.footer .tengah {
+    width: 380px;
+    height: 280px;
+    margin: 50px 25px 50px 0px;
+    float: left;
+}
+
+.footer .tengah table {
+    margin-top: 35px;
+}
+
+.footer .tengah table td {
+    width: 150px;
+    height: 27px;
+    color: #d1c9c9;    
+    font-size: 17px;
+}
+
+.footer .kanan {
+    width: 340px;
+    height: 280px;
+    margin: 50px 25px 50px 0px;
+    float: left;
+}
+
+.footer .kanan form .email {
+    background-color: rgb(49, 49, 49);
+    width: 340px;
+    height: 50px;
+    border: 0px solid black;
+    margin-top: -17px;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;    
+    font-size: 17px;
+}
+
+.footer .kanan form .subs {
+    width: 340px;
+    height: 50px;
+    margin-top: 10px;
+    background-color:  rgb(84, 198, 84);
+    border: 0px solid black;
+    text-align: center;
+    color: #fff;    
+    font-size: 17px;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+.footer .kanan form .subs:hover {
+    background-color:  rgb(65, 151, 65);
+    cursor: pointer;
+
+}
+
+.footer .bawah {
+    position: absolute;
+    height: 60px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.footer .bawah p {
+    color: #d1c9c9;
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer .bawah p span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
